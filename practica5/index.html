@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica 5</title>
+</head>
+        <style>
+            input{
+                margin: 10px;
+            }
+            #enviar2{
+                background-color: antiquewhite; color: black(187, 216, 215); padding: 20px; border-radius: 10px; border: 0px;
+            }
+            #enviar2:hover{
+                background-color: sienna(194, 75, 148);
+            }
+            .beetenviar:hover{
+                background-color: darkorange;
+                cursor: crosshair;
+            }
+        </style>
+<body>
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <br><br>
+
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido">
+
+            <input type="sumbmit" value="Enviar">
+        </form>
+        <hr style="border: 1px solid red;"> 
+        <form action=""name="forma2">
+            <fieldset>
+                <label for="nombre2">Nombre</label>
+                <input type="text" required menu="menu2" id="nombre2">
+
+                <label for="apellido2">Apellido</label>
+                <input type="text" required name="apellido2">
+
+                <label for="correo">Edad</label>
+                <input type="email" required name="correo" id="correo" placeholder="ingrea un correo valido">
+
+                <label for="edad">Edad</label>
+                <input type="number" requised name="edad" id="edad">
+
+                <input type="sumbmit" value="Enviar">
+                
+                <label for="lenjuage">Selecciona un lenjuage</label>
+                <input type="radio" name="lenjuage" id="html">HTML
+                <input type="radio" name="lenjuage" id="css">CSS
+                <input type="radio" name="lenjuage" id="js">JS
+
+                <input type="sumbmit" name="Enviar" id="enviar2">
+
+                <label for="lenjuage">Paises que has visitado</label>
+                <input type="radio" name="paises" id="Taiwan">Taiwan
+                <input type="radio" name="paises" id="China">China
+                <input type="radio" name="paises" id="Guanajuato">Guanajuato
+
+                <label for="autos">Autos</label>
+                <select name="autos" id="autos">
+                <option value="1">Fiat</option>
+                <option value="2">VW</option>
+                <option value="3">Audi</option>
+                <option value="4">KIA</option>
+                <option value="5">BMW</option>
+                <select>
+                    <br><br>
+
+                    <label for="color">color</label>
+                    <input type="color" name="color" id="color">
+
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+
+                    <label for="hora">Hora</label>
+                    <input type="yime" name="hora" id="hora">
+                
+                <input type="sumbmit" name="Enviar" id="enviar2" class="btnEnviar2">
+                
+
+            </fieldset>
+
+        </form>
+</body>
+</html>
